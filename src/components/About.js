@@ -87,32 +87,45 @@ const About = () => {
           >
             <div className="cyber-card space-y-6">
               <h3 className="text-2xl md:text-3xl font-semibold text-green-400 font-mono mb-4">
-                // Full-Stack Developer & CSE Student
+                {/* Full-Stack Developer & CSE Student */}
               </h3>
               
                              <div className="space-y-4 text-gray-300 font-mono text-sm leading-relaxed">
                  <p>
-                   <span className="text-cyan-400">/*</span> I'm a passionate 3rd-year Computer Science student at SRMIST with a strong academic record 
+                   {/* I&apos;m a passionate 3rd-year Computer Science student at SRMIST with a strong academic record 
+                   (CGPA: 9.28) and a deep interest in full-stack web development. My journey in technology 
+                   began with curiosity and has evolved into a commitment to creating innovative digital solutions. */}
+                   I&apos;m a passionate 3rd-year Computer Science student at SRMIST with a strong academic record 
                    (CGPA: 9.28) and a deep interest in full-stack web development. My journey in technology 
                    began with curiosity and has evolved into a commitment to creating innovative digital solutions.
                  </p>
                  
                  <p>
-                   <span className="text-cyan-400">/*</span> I specialize in modern web technologies including React.js for frontend development, 
+                   {/* I specialize in modern web technologies including React.js for frontend development, 
+                   Spring Boot for robust backend systems, and MongoDB/MySQL for database management. 
+                   My approach combines technical expertise with creative problem-solving to deliver 
+                   user-centric applications. */}
+                   I specialize in modern web technologies including React.js for frontend development, 
                    Spring Boot for robust backend systems, and MongoDB/MySQL for database management. 
                    My approach combines technical expertise with creative problem-solving to deliver 
                    user-centric applications.
                  </p>
                  
                  <p>
-                   <span className="text-cyan-400">/*</span> Beyond coding, I'm constantly learning and exploring new technologies to stay ahead 
+                   {/* Beyond coding, I&apos;m constantly learning and exploring new technologies to stay ahead 
+                   in this rapidly evolving field. I believe in writing clean, maintainable code and 
+                   creating experiences that make a difference. */}
+                   Beyond coding, I&apos;m constantly learning and exploring new technologies to stay ahead 
                    in this rapidly evolving field. I believe in writing clean, maintainable code and 
                    creating experiences that make a difference.
                  </p>
                  
                  <p>
-                   <span className="text-cyan-400">/*</span> Personal Background: I'm Rounaq Moin Y S, a 20-year-old from Anantapur, Andhra Pradesh. 
-                   I'm fluent in English, Hindi, Urdu, and Telugu. My interests include coding, exploring new technologies, 
+                   {/* Personal Background: I&apos;m Rounaq Moin Y S, a 20-year-old from Anantapur, Andhra Pradesh. 
+                   I&apos;m fluent in English, Hindi, Urdu, and Telugu. My interests include coding, exploring new technologies, 
+                   writing fantasy stories, and learning Japanese development. */}
+                   Personal Background: I&apos;m Rounaq Moin Y S, a 20-year-old from Anantapur, Andhra Pradesh. 
+                   I&apos;m fluent in English, Hindi, Urdu, and Telugu. My interests include coding, exploring new technologies, 
                    writing fantasy stories, and learning Japanese development.
                  </p>
                </div>
@@ -187,7 +200,7 @@ const About = () => {
          >
            <div className="cyber-card">
              <h3 className="text-xl font-semibold text-green-400 font-mono mb-6">
-               // Technical Specifications
+               {/* Technical Specifications */}
              </h3>
              <div className="grid md:grid-cols-3 gap-6 text-sm font-mono">
                <div>
@@ -230,7 +243,7 @@ const About = () => {
          >
            <div className="cyber-card">
              <h3 className="text-xl font-semibold text-green-400 font-mono mb-6">
-               // Personal Details & Education
+               {/* Personal Details & Education */}
              </h3>
              <div className="grid md:grid-cols-2 gap-8 text-sm font-mono">
                <div>
@@ -266,7 +279,7 @@ const About = () => {
          >
            <div className="cyber-card">
              <h3 className="text-xl font-semibold text-green-400 font-mono mb-6">
-               // Interests & Technical Focus
+               {/* Interests & Technical Focus */}
              </h3>
              <div className="grid md:grid-cols-2 gap-8 text-sm font-mono">
                <div>

@@ -117,7 +117,7 @@ Thank you for your interest in connecting with me!`);
           >
             <div className="cyber-card">
               <h3 className="text-2xl font-semibold text-green-400 font-mono mb-8">
-                // Connection Protocols
+                {/* Connection Protocols */}
               </h3>
               
                              <p className="text-gray-300 font-mono text-sm mb-8 leading-relaxed">
@@ -181,7 +181,7 @@ Thank you for your interest in connecting with me!`);
           >
             <div className="cyber-card">
               <h3 className="text-2xl font-semibold text-green-400 font-mono mb-8">
-                // Message Interface
+                {/* Message Interface */}
               </h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -276,7 +276,7 @@ Thank you for your interest in connecting with me!`);
           className="mt-16 cyber-card text-center"
         >
           <div className="text-green-400 font-mono text-sm mb-4">
-            // System Status: All protocols operational
+            {/* System Status: All protocols operational */}
           </div>
           <div className="text-gray-300 font-mono text-sm">
             Ready to establish connection and collaborate on innovative projects.

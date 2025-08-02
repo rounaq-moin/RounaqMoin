@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
@@ -12,14 +12,14 @@ const Hero = () => {
   const [inputHistory, setInputHistory] = useState([]);
   const terminalRef = useRef(null);
 
-  const commands = [
+  const commands = useMemo(() => [
     { cmd: '$ whoami', output: '> rounaq_moin' },
     { cmd: '$ cat skills.txt', output: '> React.js, Spring Boot, MongoDB, MySQL...' },
     { cmd: '$ ls projects/', output: '> biz_hive/ scoreazy/ student_mgmt/' },
     { cmd: '$ echo "Ready to code!"', output: '> Ready to code!' }
-  ];
+  ], []);
 
-  const easterEggs = {
+  const easterEggs = useMemo(() => ({
     'help': [
       'Welcome to Rounaq\'s Interactive Terminal! 🚀',
       '',
@@ -75,7 +75,7 @@ const Hero = () => {
     'pwd': '> /home/rounaq/portfolio',
     'clear': 'clear',
     'exit': 'exit'
-  };
+  }), []);
 
   // Scroll to bottom of terminal
   const scrollToBottom = () => {
@@ -129,7 +129,7 @@ const Hero = () => {
     }
     typeNextCommand();
     return () => { isMounted = false; };
-  }, []);
+  }, [commands]);
 
   // Handle user input
   useEffect(() => {
@@ -192,7 +192,7 @@ const Hero = () => {
       }, 100);
     }, 2000);
     return () => clearInterval(glitchInterval);
-  }, []);
+  }, [easterEggs, glitchText.length]);
 
   const scrollToAbout = () => {
     document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });

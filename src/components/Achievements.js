@@ -180,7 +180,7 @@ const Achievements = () => {
           className="mt-16 cyber-card"
         >
           <h3 className="text-xl font-semibold text-green-400 font-mono mb-6">
-            // Achievement Summary
+            {/* Achievement Summary */}
           </h3>
           <div className="grid md:grid-cols-4 gap-6 text-sm font-mono">
             <div className="text-center">

@@ -271,9 +271,9 @@ const Skills = () => {
                 </div>
               </div>
               
-              <div className="text-gray-300 font-mono text-xs leading-relaxed">
-                <div className="text-cyan-400 mb-1">// {skill.description}</div>
-              </div>
+                              <div className="text-gray-300 font-mono text-xs leading-relaxed">
+                  <div className="text-cyan-400 mb-1">{/* {skill.description} */}</div>
+                </div>
             </motion.div>
           ))}
         </div>
@@ -321,7 +321,7 @@ const Skills = () => {
                 </div>
                 
                 <div className="text-gray-300 font-mono text-xs leading-relaxed">
-                  <div className="text-cyan-400 mb-1">// {skill.description}</div>
+                  <div className="text-cyan-400 mb-1">{/* {skill.description} */}</div>
                 </div>
               </motion.div>
             ))}
@@ -336,7 +336,7 @@ const Skills = () => {
           className="cyber-card"
         >
           <h3 className="text-xl font-semibold text-green-400 font-mono mb-6">
-            // Current Focus: {skills[currentSkill]?.name}
+            {/* Current Focus: {skills[currentSkill]?.name} */}
           </h3>
           
           <AnimatePresence mode="wait">
@@ -373,7 +373,7 @@ const Skills = () => {
           className="mt-16 cyber-card"
         >
           <h3 className="text-xl font-semibold text-green-400 font-mono mb-6">
-            // Skills Summary
+            {/* Skills Summary */}
           </h3>
                      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm font-mono">
              <div>
