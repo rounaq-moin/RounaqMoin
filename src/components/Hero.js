@@ -9,7 +9,7 @@ const Hero = () => {
   const [glitchText, setGlitchText] = useState('ROUNAQ_MOIN');
   const [userInput, setUserInput] = useState('');
   const [isInteractive, setIsInteractive] = useState(false);
-  const [inputHistory, setInputHistory] = useState([]);
+
   const terminalRef = useRef(null);
 
   const commands = useMemo(() => [
@@ -138,12 +138,12 @@ const Hero = () => {
     const handleKeyPress = (e) => {
       if (e.key === 'Enter') {
         const command = userInput.trim().toLowerCase();
-        setInputHistory(prev => [...prev, `$ ${userInput}`]);
+
         
         if (easterEggs[command]) {
           if (command === 'clear') {
             setTerminalLines([]);
-            setInputHistory([]);
+
             setUserInput('');
             return;
           }
@@ -169,7 +169,7 @@ const Hero = () => {
 
     document.addEventListener('keydown', handleKeyPress);
     return () => document.removeEventListener('keydown', handleKeyPress);
-  }, [userInput, isInteractive]);
+  }, [userInput, isInteractive, easterEggs]);
 
   // Blinking cursor
   useEffect(() => {
