@@ -12,7 +12,7 @@ const Achievements = () => {
   const achievements = [
     {
       title: 'Academic Excellence',
-      subtitle: 'SRMIST - B.Tech CSE',
+      subtitle: 'SRMIST, Chennai - B.Tech CSE',
       description: 'Maintaining a strong academic record with a CGPA of 9.28 in the 3rd year of Computer Science Engineering.',
       icon: GraduationCap,
       status: 'ACTIVE',
