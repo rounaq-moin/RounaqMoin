@@ -5,7 +5,6 @@ import {
   SiReact, 
   SiJavascript, 
   SiSpringboot, 
-  SiMongodb, 
   SiMysql,
   SiHtml5,
   SiCss3,
@@ -25,7 +24,7 @@ import {
   SiNextdotjs
 } from 'react-icons/si';
 import { SiOpenjdk } from 'react-icons/si';
-import { FaBrain, FaMicrochip, FaCode, FaChartLine, FaDatabase, FaServer, FaCloud } from 'react-icons/fa';
+import { FaBrain, FaMicrochip, FaCode, FaCloud } from 'react-icons/fa';
 
 const Skills = () => {
   const [ref, inView] = useInView({
