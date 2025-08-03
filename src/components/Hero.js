@@ -216,7 +216,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-cyan-400 text-sm font-mono mb-2 text-center"
           >
-            💡 Try typing "help" and then enter if not working then refresh the page
+            💡 Try typing "help" and then enter if it's not working then refresh the page
           </motion.div>
           
           <div className="terminal-window p-6 h-96 flex flex-col">
