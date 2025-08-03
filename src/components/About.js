@@ -261,7 +261,7 @@ const About = () => {
                  <h4 className="text-cyan-400 mb-3">Education History:</h4>
                  <ul className="text-gray-300 space-y-2">
                    <li><span className="text-yellow-400">Current:</span> B.Tech CSE - SRMIST, Chennai (3rd Year)</li>
-                   <li><span className="text-yellow-400">PUC:</span> Krupanidhi PU College, Bangalore (460/500)</li>
+                   <li><span className="text-yellow-400">PUC:</span> Krupanidhi PU College, Bangalore</li>
                    <li><span className="text-yellow-400">10th Grade:</span> Montessori Indus School, Kurnool (425/500)</li>
                    <li><span className="text-yellow-400">Languages:</span> English, Hindi, Urdu, Telugu</li>
                  </ul>
