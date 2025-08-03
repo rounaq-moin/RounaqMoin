@@ -47,13 +47,6 @@ const Contact = () => {
       link: 'tel:+917995249067',
       status: 'ACTIVE'
     },
-    {
-      icon: MessageCircle,
-      title: 'AVAILABILITY_STATUS',
-      value: 'Student - Available for opportunities',
-      link: '#',
-      status: 'READY'
-    }
   ];
 
   const handleInputChange = (e) => {
