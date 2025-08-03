@@ -36,8 +36,8 @@ const Contact = () => {
     {
       icon: Github,
       title: 'GITHUB_REPOSITORY',
-      value: 'github.com/rounaq7',
-      link: 'https://github.com/rounaq7',
+      value: 'github.com/rounaq-moin',
+      link: 'https://github.com/rounaq-moin',
       status: 'ACTIVE'
     },
     {
